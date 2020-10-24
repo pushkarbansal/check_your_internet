@@ -1,0 +1,19 @@
+name-check your internet
+points-70
+description-> only open if u have strong internet connectivity
+flag(not case sensitive)-> f1aG{Ri5KY_LO0PS}
+
+
+
+
+
+1.there are two forms hidden first you need unhide both of them using simple inspect element.
+2.after unhiding u will still only see that only onoe submit button is visible it is because the css property of 1st button is top-margin:-1500 which makes the button goes out of windows;
+3.once u change the css property , u can now see the button
+4.open network tab and click the button
+5. u will the the final page is a result of a lot of redirected pages
+6.write the name of all redirected pages on a peice of paper then u will get Ga1F%7BSP0OL_YK5iR%7D
+7.in encoding %7B='{'  and %7D='}'
+8.now we have Ga1F{SP0OL_YK5iR}
+9.reverse it we get Ga1F=f1aG,{SP0OL_YK5iR}={Ri5KY_LO0PS}
+10.hence the flag is f1aG{Ri5KY_LO0PS}
