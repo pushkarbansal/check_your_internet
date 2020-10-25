@@ -1,3 +1,3 @@
 <?php
-header('location:p.php');
+header('location:P.php');
 ?>
