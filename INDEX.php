@@ -17,7 +17,7 @@ if(isset($_POST['visitmywebbsite']))
 {
     if ($_SERVER["REQUEST_METHOD"] == "POST")
     {
-        header('location:G.php');
+        header('location:g.php');
     }
     else
 {
